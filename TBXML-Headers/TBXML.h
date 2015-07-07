@@ -75,7 +75,8 @@ enum TBXMLErrorCodes {
 typedef struct _TBXMLAttribute {
 	char * name;
 	char * value;
-	struct _TBXMLAttribute * next;
+	struct _TBXMLAttribute * next;    
+    NSStringEncoding encoding;
 } TBXMLAttribute;
 
 
@@ -95,6 +96,8 @@ typedef struct _TBXMLElement {
 	
 	struct _TBXMLElement * nextSibling;
 	struct _TBXMLElement * previousSibling;
+    
+    NSStringEncoding encoding;
 	
 } TBXMLElement;
 
@@ -143,6 +146,8 @@ typedef void (^TBXMLIterateAttributeBlock)(TBXMLAttribute *attribute, NSString *
 	
 	char * bytes;
 	long bytesLength;
+    
+    NSDictionary *encodings;
 }
 
 
