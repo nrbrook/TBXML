@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsRootNamespace>TBXML_Headers</ItemsRootNamespace>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <Keyword>IslandwoodProj</Keyword>
+    <ItemsProjectGuid>{7E906842-233C-4CD1-9ACE-B8B78925E291}</ItemsProjectGuid>
+    <SharedGUID>{424C8E71-6D01-43C7-B5A4-4D255FFB1C0D}</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Headers\TBXML+Compression.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Headers\TBXML+HTTP.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Headers\TBXML.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Support\TBXML-Prefix.pch" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Support\TBXML-Shared-Prefix.pch" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Support\TBXML-iOS-Prefix.pch" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Tests\TBXMLTests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <Target Name="_GenerateRestoreGraphProjectEntry" />
+</Project>

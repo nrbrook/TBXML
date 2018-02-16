@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TBXML-Headers">
+      <UniqueIdentifier>{EF1ED018-9AEB-4EC2-83B3-63E7CD04944C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TBXML-Support">
+      <UniqueIdentifier>{45641E18-D1F7-4716-8EA2-EF332331D501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TBXML-Tests">
+      <UniqueIdentifier>{B176F70D-5913-40B3-B070-7748D9A7F85B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Headers\TBXML+Compression.h">
+      <Filter>TBXML-Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Headers\TBXML+HTTP.h">
+      <Filter>TBXML-Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Headers\TBXML.h">
+      <Filter>TBXML-Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Support\TBXML-Prefix.pch">
+      <Filter>TBXML-Support</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Support\TBXML-Shared-Prefix.pch">
+      <Filter>TBXML-Support</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Support\TBXML-iOS-Prefix.pch">
+      <Filter>TBXML-Support</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\TBXML-Tests\TBXMLTests.h">
+      <Filter>TBXML-Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

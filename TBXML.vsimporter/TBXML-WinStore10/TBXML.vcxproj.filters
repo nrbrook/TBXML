@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TBXML-Code">
+      <UniqueIdentifier>{A0956CA1-8D43-4EB3-A2C7-0EF4BD12F5D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TBXML-Support\TBXML-Prefix.pch" />
+    <ClangCompile Include="..\..\TBXML-Code\TBXML+Compression.m">
+      <Filter>TBXML-Code</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\TBXML-Code\TBXML+HTTP.m">
+      <Filter>TBXML-Code</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\TBXML-Code\TBXML.m">
+      <Filter>TBXML-Code</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>

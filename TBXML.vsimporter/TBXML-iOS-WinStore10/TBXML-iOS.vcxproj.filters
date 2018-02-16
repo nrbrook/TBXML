@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TBXML-Code">
+      <UniqueIdentifier>{634BA3CD-116E-458A-9CB9-A6E74155B25B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TBXML-Support\TBXML-iOS-Prefix.pch" />
+    <ClangCompile Include="..\..\TBXML-Code\TBXML+Compression.m">
+      <Filter>TBXML-Code</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\TBXML-Code\TBXML+HTTP.m">
+      <Filter>TBXML-Code</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\TBXML-Code\TBXML.m">
+      <Filter>TBXML-Code</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>
